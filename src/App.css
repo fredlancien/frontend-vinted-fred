@@ -1,1 +1,306 @@
 /* Other rules */
+body {
+    font-family: 'Font', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+
+.offers {
+    margin-top: 52px;
+    width: 1024px;
+    height: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Font', Arial, Helvetica, sans-serif;
+}
+
+link {
+    outline: none;
+}
+
+.title {
+    border: white solid 1px;
+    outline: none;
+}
+
+.logo {
+    margin-left: 15px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    height: 52px;
+    top: 0;
+    border-top: #EFEFEF solid 1px;
+    border-bottom: #EFEFEF solid 1px;;
+    z-index: 99;
+    background-color: white;
+    padding-bottom: 3px;
+
+}
+
+.signup {
+    padding-right: 2px;
+    text-decoration: none;
+    color: #0AB1BA;
+}
+
+.login {
+    padding-left: 2px;
+    text-decoration: none;
+    font-style: normal;
+    color: #0AB1BA;
+}
+
+.login2 {
+    padding-left: 2px;
+    text-decoration: none;
+    font-style: normal;
+    color: #0AB1BA;
+}
+
+.tosell {
+    font-size: 13px;
+    font-weight: 100;
+    background-color: #0AB1BA;
+    border-radius: 5px;
+    color: white;
+    height: 22px;
+    margin-top: 13px;
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    text-decoration: none;
+}
+
+.connection { 
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-top: 13px;
+    height: 22px;
+    border :#0AB1BA solid 1px;
+    border-radius: 5px;
+    font-weight: 100;
+    color: #0AB1BA;
+    font-size: 13px;
+}
+
+.search {
+    padding-top: 2px;
+    padding-right: 100px;
+    padding-left: 7px;
+    font-size: 15px;
+    font-weight: 100;
+    height: 42px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EFEFEF;
+}
+
+.search::placeholder {
+    color: #CECECE;
+}
+
+.image {
+    object-fit: cover;
+    height: 300px;
+    width: 180px;
+    margin-right: 10px;
+}
+
+.title {
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+    color: gray;
+}
+
+.price {
+    font-size: 10px;
+    color: gray;
+}
+
+.loginpage {
+    margin-top: 120px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+h2{
+    font-family: 'Font', Arial, Helvetica, sans-serif;  
+    font-size-adjust: none;
+    font-weight: 80;
+    letter-spacing: 1.5px;
+}
+
+.signuppage {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.signupform {
+    width: 275px;
+    margin-left: 238px;
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: #FCCED3 1px solid;
+}
+
+.username::placeholder {
+    color: #DCDCDC;
+}
+
+.email {
+    font-size: 17px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: #FCCED3 1px solid;
+}
+
+.email::placeholder {
+    color: #DCDCDC;
+}
+
+.password {
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: #FCCED3 1px solid;
+}
+
+.password::placeholder {
+    color: #DCDCDC;
+}
+
+.inscrire {
+    border: none;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    color:white;
+    background-color: #0AB1BA;
+    width: 275px;
+    height: 45px;
+    border-radius: 5px;
+
+}
+
+.disconnect {
+    border: none;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+    color:white;
+    background-color: #C21F5B;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.loginform {
+    width: 275px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginemail {
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: #FCCED3 1px solid;
+}
+
+.loginemail::placeholder {
+    color: #DCDCDC;
+}
+
+.loginpassword {
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: #FCCED3 1px solid;
+}
+
+.loginpassword::placeholder {
+    color: #DCDCDC;
+}
+
+.loginsubmit {
+    border: none;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    color:white;
+    background-color: #0AB1BA;
+    width: 275px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.product {
+    padding-bottom: 30px;
+}
+
+.image {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+
+.publish {
+    font-size: 13px;
+    outline: none;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: white;
+    background-color: #0AB1BA;
+    border-radius: 5px;
+}
+
+.details {
+    border: red 1px solid;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.file {
+    border: red 1px solid;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border:green 1px solid;
+    width: 500px;
+    height: 500px;
+    margin-left: 262px;
+}
